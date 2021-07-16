@@ -72,11 +72,16 @@ public class demoDesktop {
     public void DesktopScript() {
         try {
             driver.manage().window().maximize();
+            driver.get("https://fast.com");
+            Thread.sleep(30000);
             driver.get("https://platform.boomi.com");
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             WebDriverWait el = new WebDriverWait(driver,10);
             el.until(ExpectedConditions.visibilityOf(driver.findElementById("gwt-uid-25")));
             driver.findElementById("gwt-uid-25").sendKeys("abc");
+            System.out.println(driver.getTitle());
+            
+            
             status = "passed";
         } catch (Exception e) {
             System.out.println(e+"-----------Test---------"+sessionId +"-----------------");
