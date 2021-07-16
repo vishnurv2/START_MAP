@@ -3,17 +3,6 @@
 <suite thread-count="1" name="DesktopBrowsers" parallel="tests">
 
 
-<!--    <test name="Win10">-->
-<!--        <parameter name="browser" value="Chrome"/>-->
-<!--        <parameter name="version" value="75.0"/>-->
-<!--        <parameter name="platform" value="Win10"/>-->
-<!--        <classes>-->
-<!--        <class name="demoDesktop" />-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-
     <test name="1">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="87.0"/>
@@ -28,1427 +17,1427 @@
         </classes>
     </test>
 
-<!--    <test name="2">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.24.91"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="3">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.82.3.57"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="4">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.82.5.14"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="5">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.82.117"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="6">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="7">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="8">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.107.31"/>-->
-<!--        <parameter name="resolution" value="1440x900"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="9">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.111"/>-->
-<!--        <parameter name="resolution" value="1600x1200"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CL"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="10">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.173"/>-->
-<!--        <parameter name="resolution" value="1920x1080"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="11">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.99"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CZ"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="12">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.20.227"/>-->
-<!--        <parameter name="resolution" value="2048x1536"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="13">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="14">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="15">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.16.221"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="16">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.66"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="17">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.23.87"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="GR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="18">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.76"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="19">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="20">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="21">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="22">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="23">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="24">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="25">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="26">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.25.187"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="ZA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="27">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.107"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="28">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.111.104"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="29">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.73.210"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="30">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.195"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="31">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="32">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="33">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.107.31"/>-->
-<!--        <parameter name="resolution" value="1440x900"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="34">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.111"/>-->
-<!--        <parameter name="resolution" value="1600x1200"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CL"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="35">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.173"/>-->
-<!--        <parameter name="resolution" value="1920x1080"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="36">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.99"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CZ"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="37">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.20.227"/>-->
-<!--        <parameter name="resolution" value="2048x1536"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="38">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="39">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="40">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.16.221"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="41">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.66"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="42">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.23.87"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="GR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="43">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.76"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="44">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="45">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="46">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="47">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="48">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="49">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="50">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="51">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.25.187"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="ZA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="52">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.107"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="53">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.111.104"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="54">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.73.210"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="55">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.195"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="56">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="57">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="58">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.107.31"/>-->
-<!--        <parameter name="resolution" value="1440x900"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="59">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.111"/>-->
-<!--        <parameter name="resolution" value="1600x1200"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CL"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="60">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.173"/>-->
-<!--        <parameter name="resolution" value="1920x1080"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="61">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.99"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CZ"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="62">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.20.227"/>-->
-<!--        <parameter name="resolution" value="2048x1536"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="63">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="64">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="65">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.16.221"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="66">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.66"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="67">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.23.87"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="GR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="68">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.76"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="69">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="70">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="71">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="72">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="73">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="74">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="75">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="76">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.25.187"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="ZA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="77">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.107"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="78">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.111.104"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--    <test name="79">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.73.210"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+05:30"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="80">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.195"/>-->
-<!--        <parameter name="resolution" value="1280x800"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="81">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="82">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.97.82"/>-->
-<!--        <parameter name="resolution" value="1366x768"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="BG"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="83">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.107.31"/>-->
-<!--        <parameter name="resolution" value="1440x900"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CA"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="84">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.109.111"/>-->
-<!--        <parameter name="resolution" value="1600x1200"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CL"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="85">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.81.103.173"/>-->
-<!--        <parameter name="resolution" value="1920x1080"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="86">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.99"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="CZ"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="87">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.20.227"/>-->
-<!--        <parameter name="resolution" value="2048x1536"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="88">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="89">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.68"/>-->
-<!--        <parameter name="resolution" value="2560x1440"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FI"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="90">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.16.221"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="FR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="91">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.66"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="DE"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="92">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.23.87"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="GR"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="93">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.22.76"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="94">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-<!--    <test name="95">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="96">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="97">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="98">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="99">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
-
-<!--    <test name="100">-->
-<!--        <parameter name="browser" value="chrome"/>-->
-<!--        <parameter name="version" value="87.0"/>-->
-<!--        <parameter name="platform" value="Win 10"/>-->
-<!--        <parameter name="fixedIp" value="10.80.7.124"/>-->
-<!--        <parameter name="resolution" value="1280x1024"/>-->
-<!--        <parameter name="timezone" value="UTC+04:00"/>-->
-<!--        <parameter name="geoLocation" value="HK"/>-->
-<!--        <parameter name="tunnel" value="false"/>-->
-<!--        <classes>-->
-<!--            <class name="demoDesktop"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="2">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.24.91"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="3">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.82.3.57"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+    <test name="4">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.82.5.14"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="5">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.82.117"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="6">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="7">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="8">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.107.31"/>
+        <parameter name="resolution" value="1440x900"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="9">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.111"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CL"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="10">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.173"/>
+        <parameter name="resolution" value="1920x1080"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="11">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.99"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CZ"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="12">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.20.227"/>
+        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="13">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="14">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="15">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.16.221"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="16">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.66"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="17">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.23.87"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="GR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="18">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.76"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="19">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="20">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="21">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="22">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="23">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="24">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="25">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="26">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.25.187"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="ZA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="27">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.107"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="28">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.111.104"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+    <test name="29">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.73.210"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="30">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.195"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="31">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="32">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="33">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.107.31"/>
+        <parameter name="resolution" value="1440x900"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="34">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.111"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CL"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="35">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.173"/>
+        <parameter name="resolution" value="1920x1080"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="36">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.99"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CZ"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="37">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.20.227"/>
+        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="38">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="39">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="40">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.16.221"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="41">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.66"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="42">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.23.87"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="GR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="43">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.76"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="44">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="45">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="46">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="47">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="48">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="49">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="50">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="51">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.25.187"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="ZA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="52">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.107"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="53">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.111.104"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+    <test name="54">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.73.210"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="55">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.195"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="56">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="57">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="58">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.107.31"/>
+        <parameter name="resolution" value="1440x900"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="59">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.111"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CL"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="60">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.173"/>
+        <parameter name="resolution" value="1920x1080"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="61">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.99"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CZ"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="62">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.20.227"/>
+        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="63">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="64">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="65">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.16.221"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="66">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.66"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="67">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.23.87"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="GR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="68">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.76"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="69">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="70">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="71">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="72">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="73">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="74">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="75">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="76">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.25.187"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="ZA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="77">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.107"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="78">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.111.104"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+    <test name="79">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.73.210"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+05:30"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="80">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.195"/>
+        <parameter name="resolution" value="1280x800"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="81">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="82">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.97.82"/>
+        <parameter name="resolution" value="1366x768"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="BG"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="83">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.107.31"/>
+        <parameter name="resolution" value="1440x900"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CA"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="84">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.109.111"/>
+        <parameter name="resolution" value="1600x1200"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CL"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="85">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.81.103.173"/>
+        <parameter name="resolution" value="1920x1080"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="86">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.99"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="CZ"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="87">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.20.227"/>
+        <parameter name="resolution" value="2048x1536"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="88">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="89">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.68"/>
+        <parameter name="resolution" value="2560x1440"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FI"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="90">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.16.221"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="FR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="91">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.66"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="DE"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="92">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.23.87"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="GR"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="93">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.22.76"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="94">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+    <test name="95">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="96">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="97">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="98">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="99">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
+
+
+    <test name="100">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="version" value="87.0"/>
+        <parameter name="platform" value="Win 10"/>
+        <parameter name="fixedIp" value="10.80.7.124"/>
+        <parameter name="resolution" value="1280x1024"/>
+        <parameter name="timezone" value="UTC+04:00"/>
+        <parameter name="geoLocation" value="HK"/>
+        <parameter name="tunnel" value="false"/>
+        <classes>
+            <class name="demoDesktop"/>
+        </classes>
+    </test>
 
 
 
