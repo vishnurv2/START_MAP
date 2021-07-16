@@ -43,8 +43,8 @@ public class demoDesktop {
         try {
 
             DesiredCapabilities caps = new DesiredCapabilities();
-            caps.setCapability("build", platform);
-            caps.setCapability("platform", "Win 10");
+            caps.setCapability("build", platform + "- Jenkins : "+System.getProperty("BUILD_NUMBER") + " S_M ");
+            caps.setCapability("platform", "Win 10"); 
             caps.setCapability("browserName", "chrome");
             caps.setCapability("version", "latest");
             caps.setCapability("fixedIP","10.80.82.117");
