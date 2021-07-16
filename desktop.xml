@@ -16,7 +16,7 @@
             <class name="demoDesktop"/>
         </classes>
     </test>
-
+<!-- 
     <test name="2">
         <parameter name="browser" value="chrome"/>
         <parameter name="version" value="87.0"/>
@@ -1440,5 +1440,5 @@
     </test>
 
 
-
+ -->
 </suite>
