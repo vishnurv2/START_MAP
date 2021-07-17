@@ -47,7 +47,7 @@ public class demoDesktop {
             caps.setCapability("platform", "Win 10"); 
             caps.setCapability("browserName", "chrome");
             caps.setCapability("version", "latest");
-            caps.setCapability("fixedIP","10.80.82.117");
+//             caps.setCapability("fixedIP","10.80.82.117");
 
 
             hub = "https://" + username + ":" + accesskey + "@" + gridURL + "/wd/hub";
