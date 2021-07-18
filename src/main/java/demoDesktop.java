@@ -29,9 +29,9 @@ import java.util.concurrent.TimeUnit;
 public class demoDesktop {
 
     public String username = "vishnukdas";
-    public String accesskey = "mSAoW7DC449kuIz9mk0uYRpS6hgxpHqlgc1eRzXXPFNUChd0nZ";
+    public String accesskey = "D3tRgjqJOrG7GKCmdIkafAP7uUbPfiK3SaWXTWdjX3vhglk2yd";
     public RemoteWebDriver driver;
-    public String gridURL = "stage-hub.lambdatest.com";
+    public String gridURL = "hub.lambdatest.com";
     String status;
     String hub;
     SessionId sessionId;
@@ -43,7 +43,7 @@ public class demoDesktop {
         try {
 
             DesiredCapabilities caps = new DesiredCapabilities();
-            caps.setCapability("build", platform + "- Jenkins : "+System.getProperty("BUILD_NUMBER") + " S_M ");
+            caps.setCapability("build", platform + "- Jenkins : "+System.getProperty("BUILD_NUMBER") + " S_M + N_C_F ");
             caps.setCapability("platform", "Win 10"); 
             caps.setCapability("browserName", "chrome");
             caps.setCapability("version", "latest");
