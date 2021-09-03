@@ -28,8 +28,8 @@ import java.util.concurrent.TimeUnit;
 
 public class demoDesktop {
 
-    public String username = "vishnukdas";
-    public String accesskey = "D3tRgjqJOrG7GKCmdIkafAP7uUbPfiK3SaWXTWdjX3vhglk2yd";
+    public String username = System.getenv("LT_USERNAME");
+    public String accesskey = System.getenv("LT_ACCESS_KEY");
     public RemoteWebDriver driver;
     public String gridURL = "hub.lambdatest.com";
     String status;
