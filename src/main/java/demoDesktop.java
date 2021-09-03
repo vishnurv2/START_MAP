@@ -73,12 +73,13 @@ public class demoDesktop {
         try {
             driver.manage().window().maximize();
             driver.get("https://fast.com");
-            Thread.sleep(30000);
-            driver.get("https://platform.boomi.com");
+            Thread.sleep(30000);    
+            driver.get("https://duckduckgo.com");
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             WebDriverWait el = new WebDriverWait(driver,10);
-            el.until(ExpectedConditions.visibilityOf(driver.findElementById("gwt-uid-25")));
-            driver.findElementById("gwt-uid-25").sendKeys("abc");
+            el.until(ExpectedConditions.visibilityOf(driver.findElementById("search_form_input_homepage")));
+            driver.findElementById("search_form_input_homepage").sendKeys("lambdatest");
+            driver.findElementById("search_form_input_homepage").sendKeys(Keys.ENTER);
             System.out.println(driver.getTitle());
             
             
